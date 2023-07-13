@@ -259,3 +259,16 @@ html {
     display     : block;
     padding-left: 10px;
 }
+
+@media (max-width: 655px) {
+    .information {
+        display: block;
+    }
+}
+
+@media (max-width: 880px) {
+    #massage {
+        width : 400px;
+        height: 100px;
+    }
+}
