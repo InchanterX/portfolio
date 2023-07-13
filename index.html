@@ -20,11 +20,30 @@
                     <li><a href="#svyz">Связь</a></li>
                 </ul>
             </nav>
-            <img class="avatar" src="./imgs/avatar.png" alt="Мой аватар" width="280">
-            <h1 class="name">Егор Черноглазкин</h1>
-            <div class="card" id="me">
-                <p class="text"> <em>На данный момент мне 16 лет, мой день рождения - 29 апреля. Со следующего года я буду учится в IT профили
-                    своей школы. Кроме этого я теперь, походу ещё и ученик <strong>Redult School</strong>.</em></p>
+            <div class="information">
+                <div class="picture">
+                    <img class="avatar" src="./imgs/avatar.png" alt="Мой аватар" width="280">
+                </div>
+                <div class="info">
+                    <div>
+                        <h1 class="name">Егор</h1>
+                    </div>
+                    <div class="card me" id="me">
+                        <p class="text one"> <em>На данный момент мне 16 лет, мой день рождения - 29 апреля. Со следующего года я буду учится в IT профили
+                            своей школы. Кроме этого я теперь, походу ещё и ученик <strong>Redult School</strong>.</em></p>
+                    </div>
+                    <div class="links">
+                        <p class="head" id="contacts"><strong class="zagolovok">Социальные сети:</strong></p>
+                        <div class="card">
+                            <div class="text">
+                                <a href="https://vk.com/id597528502" target="_blank">VK</a> <strong class="stick">|</strong> <a
+                                    target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a> <strong
+                                    class="stick">|</strong> <a href="https://steamcommunity.com/profiles/76561199188240381"
+                                    target="_blank">Steam</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <h2 class="head" id="hobbi">Мои хобби</h2>
@@ -59,31 +78,28 @@
                         </tbody>
                     </table>
                 </div>
-
             </div>
 
-            <p class="head" id="contacts"><strong class="zagolovok">Социальные сети:</strong></p>
+            <!-- <h2 class="head">Пройденнеые курсы</h2>
             <div class="card">
-                <div class="text">
-                    <a href="https://vk.com/id597528502" target="_blank">VK</a> <strong class="stick">|</strong> <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a> <strong class="stick">|</strong> <a href="https://steamcommunity.com/profiles/76561199188240381" target="_blank">Steam</a>
-                </div>
-            </div>
+                <h3>Курс Дмитрия Лаврика "Вёрстка для начинающих"</h3>
+                <h3>Курс ResultSchool "HTML and CSS"</h3>
+            </div> -->
 
             <h2 class="head" id="svyz">Связаться со мной</h2>
             <div class="card">
-                <div  class="text">
-                    <label for="text">Ваше имя:</label>
+                <form class="text">
+                    <label for="text" class="labeltextform">Ваше имя:</label>
                     <input type="text" id="text" placeholder="Введите имя">
-                </div>
-                <div>
-                    <label for="email">Ваш email:</label>
+                </form>
+                <form class="mail">
+                    <label for="email" class="labelemailform">Ваш email:</label>
                     <input type="email" id="email" placeholder="Ваш email">
-                </div>
-                <div>
-                    <label for="massage">Ваше сообщение:</label>
-                    <br>
-                    <textarea id="massage" placeholder="Введите сообщение..." cols="25" rows="5"></textarea>
-                </div>
+                </form>
+                <form class="massage">
+                    <label for="massage" class="typeyourtext">Ваше сообщение:</label>
+                    <textarea id="mаssage" placeholder="Введите сообщение..." cols="25" rows="5"></textarea>
+                </form>
                 <button class="btm" type="submit">Отправить!</button>
             </div>
             <!-- <div>

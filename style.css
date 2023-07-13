@@ -20,10 +20,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.name {
-    color: #c96030;
-}
-
 .head {
     color: #ff5100;
 }
@@ -44,18 +40,10 @@ a:hover {
     margin   : auto;
 }
 
-.avatar {
-    box-shadow           : 6px 6px 21px rgba(0, 0, 0, 0.6);
-    border-radius        : 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius   : 30px;
-    -ms-border-radius    : 30px;
-    -o-border-radius     : 30px;
-}
-
 .text {
     padding-top   : 10px;
     padding-bottom: 10px;
+    display       : inline-block;
 }
 
 .stick {
@@ -72,6 +60,7 @@ a:hover {
     -ms-border-radius    : 1px;
     -o-border-radius     : 1px;
     font-family          : inherit;
+    margin-top           : 5px;
 }
 
 .btm:hover {
@@ -116,6 +105,11 @@ td {
     margin-bottom   : 10px;
     border-right    : 5px solid #c96030;
     border-left     : 5px solid #c96030;
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    right           : 0;
+    z-index         : 9999;
 }
 
 .navbar ul {
@@ -144,4 +138,124 @@ td {
 
 html {
     scroll-behavior: smooth;
+}
+
+#text,
+#email {
+    display              : block;
+    background           : #414141;
+    border               : none;
+    box-sizing           : border-box;
+    width                : 400px;
+    height               : 30px;
+    padding-left         : 10px;
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+    margin-top           : 5px;
+}
+
+#text {
+    margin-right: 30px;
+}
+
+.labeltextform,
+.labelemailform {
+    padding       : 7px;
+    padding-bottom: 10px;
+}
+
+#email {
+    display: block;
+}
+
+.mail {
+    display: inline-block;
+}
+
+#svyz {
+    text-align: center
+}
+
+#mаssage {
+    background           : #414141;
+    border               : none;
+    box-sizing           : border-box;
+    width                : 830px;
+    height               : 100px;
+    padding-left         : 10px;
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+    margin-top           : 5px;
+    resize               : vertical;
+}
+
+::-webkit-input-placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+::-moz-placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+:-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+:-moz-placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.avatar {
+    box-shadow           : 6px 6px 21px rgba(0, 0, 0, 0.6);
+    border-radius        : 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius   : 30px;
+    -ms-border-radius    : 30px;
+    -o-border-radius     : 30px;
+    display              : block;
+}
+
+.info {
+    display    : inline;
+    margin-left: 20px;
+}
+
+.name {
+    color      : #c96030;
+    display    : block;
+    margin-left: 20px;
+}
+
+.information {
+    display   : flex;
+    margin-top: 70px;
+}
+
+.picture {
+    display: inline;
+}
+
+.one {
+    display: block;
+}
+
+.links {
+    display: block;
+}
+
+.typeyourtext {
+    display     : block;
+    padding-left: 10px;
 }
